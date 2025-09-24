@@ -1,0 +1,34 @@
+body{
+    background: url('https://cdn2.bigcommerce.com/server500/cd6a7/images/stencil/original/image-manager/vector-graphic.jpg') no-repeat center center/cover;
+}
+
+
+.container{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+#number{
+    
+     text-shadow:
+    -1px -1px 0 rgb(255, 255, 255),  /* Top-left shadow */
+     1px -1px 0 rgb(255, 255, 255),  /* Top-right shadow */
+    -1px  1px 0 rgb(255, 255, 255),  /* Bottom-left shadow */
+     1px  1px 0 rgb(255, 255, 255);
+    text-align: center;
+       font-size: 250px;
+       color: chocolate;
+       height: 200px;
+}
+.button{
+    background-color: rgba(0, 106, 255, 0.579);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: solid hsla(0, 0%, 0%, 0.491);
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.30);
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+}
+
